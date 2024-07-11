@@ -474,6 +474,7 @@ footer .footer-left, .footer-right{
 } */
 .footer-right li, .footer-left li{
   list-style: none;
+  font-family: "Sen", sans-serif;
 }
 .social{
   display: flex;
