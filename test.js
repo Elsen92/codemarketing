@@ -22,8 +22,27 @@ var swiper = new Swiper(".mySwiper", {
     document.addEventListener('DOMContentLoaded', function() {
       const zoomableImage = document.querySelector('.zoomable');
       
-      // Sayfa yüklendiğinde otomatik olarak büyüme ve dönme efekti
+     
       zoomableImage.classList.add('zoomed');
     });
+
+var mySwiper = new Swiper('.swiper-container', {
+  
+  pagination: {
+      el: '.swiper-pagination',
+      
+  },
+});
+
+
+var pagination = document.querySelector('.swiper-pagination');
+
+if (pagination) {
+  pagination.style.color = '#CEFA05'; 
+  pagination.querySelectorAll('.swiper-pagination-bullet').forEach(function(bullet) {
+      bullet.style.backgroundColor = '#CEFA05';
+  });
+}
+
 
     // !!!!
