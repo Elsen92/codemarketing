@@ -1,39 +1,54 @@
 body {
     font-family: Arial, sans-serif;
 }
-
-nav {
-    background-color: #333;
-    overflow: hidden;
+.navs{
+  height: 70px;
+  background-color: #373a41;
+  color: white;
+  
+}
+.navs a{
+  transition: .5s;
+}
+.navs a:hover{
+  color: black;
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
 }
 
-nav ul {
+/* nav {
+    background-color: #333;
+    overflow: hidden;
+} */
+
+/* nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+} */
 
-nav ul li {
+/* nav ul li {
     float: left;
-}
+} */
 
-nav ul li a, .dropbtn {
+/* nav ul li a, .dropbtn {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
-nav ul li a:hover, .dropdown:hover .dropbtn {
+/* nav ul li a:hover, .dropdown:hover .dropbtn {
     background-color: #575757;
-}
+} */
 
-.dropdown {
+/* .dropdown {
     display: inline-block;
-}
+} */
 
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -52,11 +67,11 @@ nav ul li a:hover, .dropdown:hover .dropbtn {
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
-}
+} */
 
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
     display: block;
-}
+} */
 /* card */
 body {
     background: #24282f;
